@@ -14,7 +14,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 
 a{
-	color:#21afc4!important;
+	color:#21afc4;
 }
  a:hover{
 	color:#1a8c9d!important;
@@ -125,6 +125,9 @@ a{
 .d-bloc h1, .d-bloc h2, .d-bloc h3, .d-bloc h4,.d-bloc h5, .d-bloc h6, .d-bloc .ico{
 	color:rgba(255,255,255,.9);
 }
+.d-bloc h4, .d-bloc h3{
+	color: #1c1c1c;
+}
 .d-bloc .icon-round{
 	border-color:rgba(255,255,255,.9);
 }
@@ -132,7 +135,10 @@ a{
 	border-color:rgba(255,255,255,.2);
 }
 .d-bloc a{
-	color:rgba(255,255,255,.6);
+	color: white;
+}
+.mg-md a{
+	color: #21afc4;
 }
 .d-bloc a:hover{
 	color:rgba(255,255,255,1);
@@ -234,11 +240,13 @@ a{
 }
 #hero-bloc h3{
 	font-size:30px;
+	color: white;
 }
 #bloc-2 h3{
 	font-family: 'Open Sans';
 	font-weight: 800;
 	font-size: 30px;
+	color: white;
 }
 #bloc-3 h4{
 	font-weight: 100;
@@ -267,6 +275,7 @@ a{
 	font-size: 33px;
 	font-weight: 900;
 	font-family: Oswald;
+	color: white;
 }
 #bloc-7 h1{
 	font-family: 'Open Sans';
@@ -276,16 +285,19 @@ a{
 	font-family: 'Open Sans';
 	font-weight: 800;
 	font-size: 20px;
+	color: white;
 }
 #bloc-9 h3{
 	font-family: 'Open Sans';
 	font-weight: 800;
 	font-size: 20px;
+	color: white;
 }
 #bloc-10 h3{
 	font-family: 'Open Sans';
 	font-weight: 800;
 	font-size: 20px;
+	color: white;
 }
 #bloc-11 h3{
 	font-family: 'Open Sans';
@@ -483,11 +495,19 @@ a{
 	font-size: 33px;
 	font-weight: 400;
 	font-family: Oswald;
+	color: white;
 }
 #bloc-39 h3{
 	font-size: 15px;
 	font-family: 'Open Sans';
 	font-weight: 800;
+	color: white;
+}
+
+#bloc-39 .mg-sm{
+  font-size: 24px!important;
+  font-family: 'Open Sans';
+  font-weight: 100;
 }
 
 /* Bloc image backgrounds */
@@ -533,6 +553,7 @@ a{
 }
 .bg-squared-d-bg{
 	background-image:url("img/squared-d-bg.png");
+	background: #1c1c1c;
 }
 .bg-box-bg-tall-4{
 	background-image:url("img/box_bg-tall-4.jpg");
@@ -898,6 +919,10 @@ iframe{
         margin-left: 0;
         margin-right: 0;
     }
+    .row {
+	  margin-right: 15px;
+	  margin-left: 15px;
+	}
     .site-navigation{
 	   position:inherit;
 	   transform:none;
@@ -970,4 +995,20 @@ iframe{
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .bloc-group {
+	  width: 100%;
+	  display: none;
+	}
+	#bloc-3 h4 {
+	  font-weight: 100;
+	  font-family: Oswald;
+	  margin-top: -125px;
+	}
+	#bloc-2 h3 {
+	  font-family: 'Open Sans';
+	  font-weight: 800;
+	  font-size: 30px;
+	  color: white;
+	  margin-top: -25px;
+	}
 }
